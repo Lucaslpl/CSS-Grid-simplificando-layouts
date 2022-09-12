@@ -1,5 +1,5 @@
 .populares {
-    padding: 3rem 2rem;
+    padding: 3rem 0x;
 }
 
 .populares__conteudo {
@@ -17,7 +17,6 @@
         'card-corpo';
     grid-template-columns: 100%;
     grid-template-rows: 173px auto;
-    margin-right: 1rem;
     width: calc(20% - 1rem);
 }
 
@@ -71,6 +70,7 @@
     border-bottom: 1px solid #dcdcdc;
     display: flex;
     justify-content: space-between;
+    padding-top: 2rem;
 }
 
 .populares__botao {
